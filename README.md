@@ -1,4 +1,4 @@
-matrix-react-sdk
+matrix-react-sdk-vj
 ================
 
 This is a react-based SDK for inserting a Matrix chat/voip client into a web page.
@@ -12,16 +12,16 @@ a 'skin'. A skin provides:
  * Zero or more 'modules' containing non-UI functionality
 
 **WARNING: As of July 2016, the skinning abstraction is broken due to rapid
-development of `matrix-react-sdk` to meet the needs of Riot (codenamed Vector), the first app
+development of `matrix-react-sdk-vj` to meet the needs of Riot (codenamed Vector), the first app
 to be built on top of the SDK** (https://github.com/vector-im/riot-web).
-Right now `matrix-react-sdk` depends on some functionality from `riot-web`
-(e.g. CSS), and `matrix-react-sdk` contains some Riot specific behaviour
+Right now `matrix-react-sdk-vj` depends on some functionality from `riot-web`
+(e.g. CSS), and `matrix-react-sdk-vj` contains some Riot specific behaviour
 (grep for 'vector').  This layering will be fixed asap once Riot development
 has stabilised, but for now we do not advise trying to create new skins for
-matrix-react-sdk until the layers are clearly separated again.
+matrix-react-sdk-vj until the layers are clearly separated again.
 
-In the interim, `vector-im/riot-web` and `matrix-org/matrix-react-sdk` should
-be considered as a single project (for instance, matrix-react-sdk bugs
+In the interim, `vector-im/riot-web` and `matrix-org/matrix-react-sdk-vj` should
+be considered as a single project (for instance, matrix-react-sdk-vj bugs
 are currently filed against vector-im/riot-web rather than this project).
 
 Translation Status
@@ -46,19 +46,19 @@ Please follow the standard Matrix contributor's guide:
 https://github.com/matrix-org/synapse/tree/master/CONTRIBUTING.rst
 
 Please follow the Matrix JS/React code style as per:
-https://github.com/matrix-org/matrix-react-sdk/blob/master/code_style.md
+https://github.com/matrix-org/matrix-react-sdk-vj/blob/master/code_style.md
 
-Whilst the layering separation between matrix-react-sdk and Riot is broken
+Whilst the layering separation between matrix-react-sdk-vj and Riot is broken
 (as of July 2016), code should be committed as follows:
- * All new components: https://github.com/matrix-org/matrix-react-sdk/tree/master/src/components
+ * All new components: https://github.com/matrix-org/matrix-react-sdk-vj/tree/master/src/components
  * Riot-specific components: https://github.com/vector-im/riot-web/tree/master/src/components
-   * In practice, `matrix-react-sdk` is still evolving so fast that the maintenance
+   * In practice, `matrix-react-sdk-vj` is still evolving so fast that the maintenance
      burden of customising and overriding these components for Riot can seriously
      impede development.  So right now, there should be very few (if any) customisations for Riot.
- * CSS for Matrix SDK components: https://github.com/vector-im/riot-web/tree/master/src/skins/vector/css/matrix-react-sdk
+ * CSS for Matrix SDK components: https://github.com/vector-im/riot-web/tree/master/src/skins/vector/css/matrix-react-sdk-vj
  * CSS for Riot-specific overrides and components: https://github.com/vector-im/riot-web/tree/master/src/skins/vector/css/riot-web
 
-React components in matrix-react-sdk are come in two different flavours:
+React components in matrix-react-sdk-vj are come in two different flavours:
 'structures' and 'views'.  Structures are stateful components which handle the
 more complicated business logic of the app, delegating their actual presentation
 rendering to stateless 'view' components.  For instance, the RoomView component
@@ -79,8 +79,8 @@ practices that anyone working with the SDK needs to be be aware of and uphold:
     the `component-index.js` for the SDK (used in future for skinning)
 
   * The view's CSS file MUST have the same name (e.g. view/rooms/MessageTile.css).
-    CSS for matrix-react-sdk currently resides in
-    https://github.com/vector-im/riot-web/tree/master/src/skins/vector/css/matrix-react-sdk.
+    CSS for matrix-react-sdk-vj currently resides in
+    https://github.com/vector-im/riot-web/tree/master/src/skins/vector/css/matrix-react-sdk-vj.
 
   * Per-view CSS is optional - it could choose to inherit all its styling from
     the context of the rest of the app, although this is unusual for any but
@@ -92,7 +92,7 @@ practices that anyone working with the SDK needs to be be aware of and uphold:
     is not cool, as it breaks the independence of the components.
 
   * CSS classes are named with an app-specific namespacing prefix to try to avoid
-    CSS collisions.  The base skin shipped by Matrix.org with the matrix-react-sdk
+    CSS collisions.  The base skin shipped by Matrix.org with the matrix-react-sdk-vj
     uses the naming prefix "mx_".  A company called Yoyodyne Inc might use a
     prefix like "yy_" for its app-specific classes.
 
@@ -123,7 +123,7 @@ practices that anyone working with the SDK needs to be be aware of and uphold:
     generally not cool and stop the component from being reused easily in
     different places.
 
-Originally `matrix-react-sdk` followed the Atomic design pattern as per
+Originally `matrix-react-sdk-vj` followed the Atomic design pattern as per
 http://patternlab.io to try to encourage a modular architecture.  However, we
 found that the grouping of components into atoms/molecules/organisms
 made them harder to find relative to a functional split, and didn't emphasise
@@ -150,7 +150,7 @@ A basic skin is provided in the matrix-react-skin package. This also contains
 a minimal application that instantiates the basic skin making a working matrix
 client.
 
-You can use matrix-react-sdk directly, but to do this you would have to provide
+You can use matrix-react-sdk-vj directly, but to do this you would have to provide
 'views' for each UI component. To get started quickly, use matrix-react-skin.
 
 To actually change the look of a skin, you can create a base skin (which
@@ -172,7 +172,7 @@ or for a derived skin, set it to the path of your base skin's skinfo.json file, 
 you would use in a require call.
 
 Now you have the basis of a skin, you need to generate a skindex.json file. The
-`reskindex.js` tool in matrix-react-sdk does this for you. It is suggested that
+`reskindex.js` tool in matrix-react-sdk-vj does this for you. It is suggested that
 you add an npm script to run this, as in matrix-react-skin.
 
 For more specific detail on any of these steps, look at matrix-react-skin.
@@ -182,7 +182,7 @@ Alternative instructions:
   * Create a new NPM project. Be sure to directly depend on react, (otherwise
     you can end up with two copies of react).
   * Create an index.js file that sets up react. Add require statements for
-    React and matrix-react-sdk. Load a skin using the 'loadSkin' method on the
+    React and matrix-react-sdk-vj. Load a skin using the 'loadSkin' method on the
     SDK and call Render. This can be a skin provided by a separate package or
     a skin in the same package.
   * Add a way to build your project: we suggest copying the scripts block

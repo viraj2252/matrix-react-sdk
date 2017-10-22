@@ -388,7 +388,7 @@
     "Local addresses for this room:": "Локальный адрес этой комнаты:",
     "Markdown is disabled": "Markdown отключен",
     "Markdown is enabled": "Markdown включен",
-    "matrix-react-sdk version:": "версия matrix-react-sdk:",
+    "matrix-react-sdk-vj version:": "версия matrix-react-sdk-vj:",
     "Never send encrypted messages to unverified devices in this room": "Никогда не отправлять зашифрованные сообщения на непроверенные устройства в этой комнате",
     "New address (e.g. #foo:%(localDomain)s)": "Новый адрес (например, #foo:%(localDomain)s)",
     "New passwords don't match": "Новые пароли не совпадают",

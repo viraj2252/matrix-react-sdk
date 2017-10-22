@@ -358,21 +358,12 @@ module.exports = React.createClass({
                             { loader }
                         </h2>
                         { this.componentForStep(this.state.currentFlow) }
-                        <ServerConfig ref="serverConfig"
-                            withToggleButton={true}
-                            customHsUrl={this.props.customHsUrl}
-                            customIsUrl={this.props.customIsUrl}
-                            defaultHsUrl={this.props.defaultHsUrl}
-                            defaultIsUrl={this.props.defaultIsUrl}
-                            onServerConfigChange={this.onServerConfigChange}
-                            delayTimeMs={1000}/>
                         <div className="mx_Login_error">
                                 { this.state.errorText }
                         </div>
                         <a className="mx_Login_create" onClick={this.props.onRegisterClick} href="#">
                             { _t('Create an account')}
                         </a>
-                        { loginAsGuestJsx }
                         { returnToAppJsx }
                         { this._renderLanguageSetting() }
                         <LoginFooter />

@@ -586,7 +586,7 @@
     "Email": "E-Mail",
     "Interface Language": "Oberflächen-Sprache",
     "Logged in as:": "Angemeldet als:",
-    "matrix-react-sdk version:": "Version von matrix-react-sdk:",
+    "matrix-react-sdk-vj version:": "Version von matrix-react-sdk-vj:",
     "New passwords don't match": "Die neuen Passwörter stimmen nicht überein",
     "olm version:": "Version von olm:",
     "Passwords can't be empty": "Passwortfelder dürfen nicht leer sein",

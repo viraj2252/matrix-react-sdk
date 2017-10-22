@@ -293,7 +293,7 @@
     "Manage Integrations": "통합 관리",
     "Markdown is disabled": "마크다운이 꺼져있어요",
     "Markdown is enabled": "마크다운이 켜져있어요",
-    "matrix-react-sdk version:": "matrix-react-sdk 버전:",
+    "matrix-react-sdk-vj version:": "matrix-react-sdk-vj 버전:",
     "Members only": "구성원만",
     "Message not sent due to unknown devices being present": "알 수 없는 장치가 있어 메시지를 보내지 못했어요",
     "Missing room_id in request": "요청에서 방_id가 빠졌어요",

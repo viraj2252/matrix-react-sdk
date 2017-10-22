@@ -349,7 +349,7 @@
     "Manage Integrations": "Kudeatu interakzioak",
     "Markdown is disabled": "Markdown desgaituta dago",
     "Markdown is enabled": "Markdown gaituta dago",
-    "matrix-react-sdk version:": "matrix-react-sdk bertsioa:",
+    "matrix-react-sdk-vj version:": "matrix-react-sdk-vj bertsioa:",
     "Members only": "Kideak besterik ez",
     "Message not sent due to unknown devices being present": "Ez da mezua bidali gailu ezezagunak daudelako",
     "Missing room_id in request": "Gelaren ID-a falta da eskaeran",

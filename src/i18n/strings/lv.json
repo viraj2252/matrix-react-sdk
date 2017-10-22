@@ -270,7 +270,7 @@
     "Markdown is enabled": "Formatēšanas iespēja ir iespējota",
     "Turn Markdown off": "Izslēgt formatēšanas iespēju",
     "Turn Markdown on": "Ieslēgt formatēšanas iespēju",
-    "matrix-react-sdk version:": "matrix-react-sdk versija:",
+    "matrix-react-sdk-vj version:": "matrix-react-sdk-vj versija:",
     "Members only": "Tikai biedriem",
     "The default role for new room members is": "Noklusējuma loma jaunam istabas biedram ir",
     "Message not sent due to unknown devices being present": "Ziņa nav nosūtīta, jo tika konstatēta nezināmu ierīču klātbūtne",

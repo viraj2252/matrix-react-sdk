@@ -24,7 +24,7 @@ var sinon = require('sinon');
 var jssdk = require('matrix-js-sdk');
 var EventTimeline = jssdk.EventTimeline;
 
-var sdk = require('matrix-react-sdk');
+var sdk = require('matrix-react-sdk-vj');
 var TimelinePanel = sdk.getComponent('structures.TimelinePanel');
 var peg = require('../../../src/MatrixClientPeg');
 

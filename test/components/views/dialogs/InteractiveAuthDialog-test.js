@@ -22,7 +22,7 @@ import ReactTestUtils from 'react-addons-test-utils';
 import sinon from 'sinon';
 import MatrixReactTestUtils from 'matrix-react-test-utils';
 
-import sdk from 'matrix-react-sdk';
+import sdk from 'matrix-react-sdk-vj';
 import MatrixClientPeg from '../../../../src/MatrixClientPeg';
 
 import * as test_utils from '../../../test-utils';

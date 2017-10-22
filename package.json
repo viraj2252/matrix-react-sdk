@@ -1,11 +1,11 @@
 {
-    "name": "matrix-react-sdk",
-    "version": "0.10.6",
+    "name": "matrix-react-sdk-vj",
+    "version": "0.10.15",
     "description": "SDK for matrix.org using React",
     "author": "matrix.org",
     "repository": {
         "type": "git",
-        "url": "https://github.com/viraj2252/matrix-react-sdk"
+        "url": "https://github.com/viraj2252/matrix-react-sdk-vj"
     },
     "license": "Apache-2.0",
     "main": "lib/index.js",

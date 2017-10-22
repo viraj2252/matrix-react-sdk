@@ -32,7 +32,7 @@
     "%(displayName)s is typing": "%(displayName)s กำลังพิมพ์",
     "Kick": "เตะ",
     "Low priority": "ความสำคัญต่ำ",
-    "matrix-react-sdk version:": "เวอร์ชัน matrix-react-sdk:",
+    "matrix-react-sdk-vj version:": "เวอร์ชัน matrix-react-sdk-vj:",
     "Members only": "สมาชิกเท่านั้น",
     "Mobile phone number": "หมายเลขโทรศัพท์",
     "Mobile phone number (optional)": "หมายเลขโทรศัพท์ (ไม่ใส่ก็ได้)",

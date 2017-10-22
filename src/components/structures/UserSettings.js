@@ -1398,8 +1398,8 @@ module.exports = React.createClass({
                         { _t("Identity Server is") } { MatrixClientPeg.get().getIdentityServerUrl() }
                     </div>
                     <div className="mx_UserSettings_advanced">
-                        {_t('matrix-react-sdk version:')} {(REACT_SDK_VERSION !== '<local>')
-                            ? gHVersionLabel('matrix-org/matrix-react-sdk', REACT_SDK_VERSION)
+                        {_t('matrix-react-sdk-vj version:')} {(REACT_SDK_VERSION !== '<local>')
+                            ? gHVersionLabel('matrix-org/matrix-react-sdk-vj', REACT_SDK_VERSION)
                             : REACT_SDK_VERSION
                         }<br/>
                         {_t('riot-web version:')} {(this.state.vectorVersion !== undefined)

@@ -380,7 +380,7 @@
     "Manage Integrations": "Gestionar integraciones",
     "Markdown is disabled": "Markdown está desactivado",
     "Markdown is enabled": "Markdown está activado",
-    "matrix-react-sdk version:": "Versión de matrix-react-sdk:",
+    "matrix-react-sdk-vj version:": "Versión de matrix-react-sdk-vj:",
     "Members only": "Sólo para miembros",
     "Message not sent due to unknown devices being present": "Mensaje no enviado debido a la presencia de dispositivos desconocidos",
     "Missing room_id in request": "Falta el ID de sala en la petición",

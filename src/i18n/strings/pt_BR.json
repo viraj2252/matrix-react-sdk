@@ -589,7 +589,7 @@
     "Interface Language": "Idioma da interface",
     "Invalid file%(extra)s": "Arquivo inválido %(extra)s",
     "Logged in as:": "Logado como:",
-    "matrix-react-sdk version:": "versão do matrix-react-sdk:",
+    "matrix-react-sdk-vj version:": "versão do matrix-react-sdk-vj:",
     "Mute": "Mudo",
     "olm version:": "versão do olm:",
     "Operation failed": "A operação falhou",

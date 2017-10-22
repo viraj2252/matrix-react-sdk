@@ -243,7 +243,7 @@
     "Manage Integrations": "Hallinoi integraatioita",
     "Markdown is disabled": "Markdown on pois päältä",
     "Markdown is enabled": "Mardown on päällä",
-    "matrix-react-sdk version:": "Matrix-react-sdk versio:",
+    "matrix-react-sdk-vj version:": "Matrix-react-sdk versio:",
     "Matrix Apps": "Matrix ohjelmat",
     "Members only": "Vain jäsenet",
     "Message not sent due to unknown devices being present": "Viestiä ei lähetetty koska paikalla on tuntemattomia laitteita",

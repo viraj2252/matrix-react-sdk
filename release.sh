@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Script to perform a release of matrix-react-sdk.
+# Script to perform a release of matrix-react-sdk-vj.
 #
 # Requires githib-changelog-generator; to install, do 
 #   pip install git+https://github.com/matrix-org/github-changelog-generator.git

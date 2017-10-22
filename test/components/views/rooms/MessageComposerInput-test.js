@@ -5,7 +5,7 @@ import expect, {createSpy} from 'expect';
 import sinon from 'sinon';
 import Promise from 'bluebird';
 import * as testUtils from '../../../test-utils';
-import sdk from 'matrix-react-sdk';
+import sdk from 'matrix-react-sdk-vj';
 import UserSettingsStore from '../../../../src/UserSettingsStore';
 const MessageComposerInput = sdk.getComponent('views.rooms.MessageComposerInput');
 import MatrixClientPeg from '../../../../src/MatrixClientPeg';

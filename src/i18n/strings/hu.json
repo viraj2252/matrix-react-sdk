@@ -293,7 +293,7 @@
     "Manage Integrations": "Integrációk kezelése",
     "Markdown is disabled": "Markdown kikapcsolva",
     "Markdown is enabled": "Markdown engedélyezett",
-    "matrix-react-sdk version:": "matrix-react-sdk verzió:",
+    "matrix-react-sdk-vj version:": "matrix-react-sdk-vj verzió:",
     "Members only": "Csak tagoknak",
     "Message not sent due to unknown devices being present": "Ismeretlen eszköz miatt az üzenet nem küldhető el",
     "Missing room_id in request": "Hiányzó room_id a kérésben",

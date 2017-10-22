@@ -20,7 +20,7 @@ var TestUtils = require('react-addons-test-utils');
 var expect = require('expect');
 import sinon from 'sinon';
 
-var sdk = require('matrix-react-sdk');
+var sdk = require('matrix-react-sdk-vj');
 
 var MessagePanel = sdk.getComponent('structures.MessagePanel');
 import UserSettingsStore from '../../../src/UserSettingsStore';

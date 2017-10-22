@@ -404,7 +404,7 @@
     "Manage Integrations": "管裡整合",
     "Markdown is disabled": "Markdown 已停用",
     "Markdown is enabled": "Markdown 已啟用",
-    "matrix-react-sdk version:": "matrix-react-sdk 版本：",
+    "matrix-react-sdk-vj version:": "matrix-react-sdk-vj 版本：",
     "Members only": "僅成員",
     "Message not sent due to unknown devices being present": "因為未知的裝置存在而未傳送",
     "Missing room_id in request": "在請求中遺失房間 ID",

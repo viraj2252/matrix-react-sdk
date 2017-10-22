@@ -26,7 +26,7 @@ npm run lintall -- -f checkstyle -o eslint.xml || true
     src test
 
 # delete the old tarball, if it exists
-rm -f matrix-react-sdk-*.tgz
+rm -f matrix-react-sdk-vj-*.tgz
 
 # build our tarball
 npm pack

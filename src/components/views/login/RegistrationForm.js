@@ -158,7 +158,14 @@ module.exports = React.createClass({
         switch (field_id) {
             case FIELD_EMAIL:
                 const email = this.refs.email.value;
-                if (this.props.teamsConfig && this._isUniEmail(email)) {
+                if (email === '') {
+                    this.markFieldValid(
+                        field_id,
+                        false,
+                        "RegistrationForm.ERR_EMAIL_BLANK"
+                    );
+                }
+                else if (this.props.teamsConfig && this._isUniEmail(email)) {
                     const matchingTeam = this.props.teamsConfig.teams.find(
                         (team) => {
                             return email.split('@').pop() === team.domain;
@@ -176,7 +183,7 @@ module.exports = React.createClass({
                         showSupportEmail: false,
                     });
                 }
-                const emailValid = email === '' || Email.looksValid(email);
+                const emailValid = Email.looksValid(email);
                 this.markFieldValid(field_id, emailValid, "RegistrationForm.ERR_EMAIL_INVALID");
                 break;
             case FIELD_PHONE_NUMBER:
@@ -276,7 +283,7 @@ module.exports = React.createClass({
         const emailSection = (
             <div>
                 <input type="text" ref="email"
-                    autoFocus={true} placeholder={_t("Email address (optional)")}
+                    autoFocus={true} placeholder={_t("Email address")}
                     defaultValue={this.props.defaultEmail}
                     className={this._classForField(FIELD_EMAIL, 'mx_Login_field')}
                     onBlur={function() {self.validateField(FIELD_EMAIL);}}

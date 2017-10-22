@@ -17,5 +17,5 @@ EOF
     
     ./node_modules/.bin/eslint --no-ignore -f json src test |
         jq -r '.[] | select((.errorCount + .warningCount) > 0) | .filePath' |
-        sed -e 's/.*matrix-react-sdk\///';
+        sed -e 's/.*matrix-react-sdk-vj\///';
 } > "$out"

@@ -20,7 +20,7 @@ var ReactTestUtils = require('react-addons-test-utils');
 var expect = require('expect');
 import Promise from 'bluebird';
 
-var sdk = require('matrix-react-sdk');
+var sdk = require('matrix-react-sdk-vj');
 
 var ScrollPanel = sdk.getComponent('structures.ScrollPanel');
 var test_utils = require('test-utils');

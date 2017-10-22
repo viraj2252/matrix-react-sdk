@@ -276,6 +276,9 @@ module.exports = React.createClass({
             case "RegistrationForm.ERR_USERNAME_BLANK":
                 errMsg = _t('You need to enter a user name.');
                 break;
+            case "RegistrationForm.ERR_EMAIL_BLANK":
+                errMsg = _t('You need to enter an email.');
+                break;
             default:
                 console.error("Unknown error code: %s", errCode);
                 errMsg = _t('An unknown error occurred.');
@@ -363,15 +366,7 @@ module.exports = React.createClass({
                         onTeamSelected={this.onTeamSelected}
                     />
                     {errorSection}
-                    <ServerConfig ref="serverConfig"
-                        withToggleButton={true}
-                        customHsUrl={this.props.customHsUrl}
-                        customIsUrl={this.props.customIsUrl}
-                        defaultHsUrl={this.props.defaultHsUrl}
-                        defaultIsUrl={this.props.defaultIsUrl}
-                        onServerConfigChange={this.onServerConfigChange}
-                        delayTimeMs={1000}
-                    />
+                    
                 </div>
             );
         }

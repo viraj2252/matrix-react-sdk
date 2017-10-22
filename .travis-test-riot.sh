@@ -27,7 +27,7 @@ rm -r node_modules/matrix-js-sdk
 ln -s "$REACT_SDK_DIR/node_modules/matrix-js-sdk" node_modules/matrix-js-sdk
 
 # ... and, of course, the version of react-sdk we just built
-rm -r node_modules/matrix-react-sdk
-ln -s "$REACT_SDK_DIR" node_modules/matrix-react-sdk
+rm -r node_modules/matrix-react-sdk-vj
+ln -s "$REACT_SDK_DIR" node_modules/matrix-react-sdk-vj
 
 npm run test

@@ -2,7 +2,7 @@ const expect = require('expect');
 const React = require('react');
 const ReactDOM = require("react-dom");
 const ReactTestUtils = require('react-addons-test-utils');
-const sdk = require('matrix-react-sdk');
+const sdk = require('matrix-react-sdk-vj');
 const MemberEventListSummary = sdk.getComponent('views.elements.MemberEventListSummary');
 import * as languageHandler from '../../../../src/languageHandler';
 

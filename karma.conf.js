@@ -197,7 +197,7 @@ module.exports = function (config) {
                     // twice when using npm link.
                     react: path.resolve('./node_modules/react'),
 
-                    'matrix-react-sdk': path.resolve('test/skinned-sdk.js'),
+                    'matrix-react-sdk-vj': path.resolve('test/skinned-sdk.js'),
                     'sinon': 'sinon/pkg/sinon.js',
                 },
                 root: [

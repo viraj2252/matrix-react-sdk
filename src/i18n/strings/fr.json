@@ -221,7 +221,7 @@
     "Manage Integrations": "Gestion des intégrations",
     "Markdown is disabled": "Le formatage \"Markdown\" est désactivé",
     "Markdown is enabled": "Le formatage “Markdown” est activé",
-    "matrix-react-sdk version:": "Version du matrix-react-sdk :",
+    "matrix-react-sdk-vj version:": "Version du matrix-react-sdk-vj :",
     "Members only": "Membres uniquement",
     "Message not sent due to unknown devices being present": "Message non-envoyé à cause de la présence d’appareils non-vérifiés",
     "Missing room_id in request": "Absence du room_id dans la requête",
